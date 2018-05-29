@@ -12,6 +12,7 @@ Install:
 * [the_silver_searcher](https://github.com/ggreer/the_silver_searcher)
 * [python3](https://www.python.org)
 * [z3](https://github.com/Z3Prover/z3)
+* [rust](https://rustup.rs) with [rls](https://github.com/rust-lang-nursery/rls)
 
 Then install python3 `neovim` package:
 ```bash
