@@ -20,6 +20,8 @@ call plug#begin('~/.local/share/nvim/plugged')
   Plug 'leanprover/lean.vim', { 'for': 'lean' }
   " z3
   Plug 'bohlender/vim-smt2'
+  " Rust
+  Plug 'rust-lang/rust.vim'
   " w3m - web browser
   Plug 'yuratomo/w3m.vim'
 call plug#end()
