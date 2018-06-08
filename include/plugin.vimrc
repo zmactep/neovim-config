@@ -22,7 +22,7 @@ let g:ctrlp_working_path_mode = 'ra'
 let g:LanguageClient_serverCommands = {
     \ 'python': ['pyls'],
     \ 'lean': ['node', 'lean-language-server', '--stdio'],
-    \ 'rust': ['rustup', 'run', 'stable', 'rls'],
+    \ 'rust': ['rustup', 'run', 'nightly', 'rls'],
     \ 'haskell': ['hie', '--lsp']
     \ }
 

@@ -6,6 +6,8 @@ call plug#begin('~/.local/share/nvim/plugged')
   Plug 'ctrlpvim/ctrlp.vim'
   " Terminal
   Plug 'mklabs/split-term.vim'
+  " Linter
+  Plug 'w0rp/ale'
   " Autocomplete
   Plug 'autozimu/LanguageClient-neovim', {
     \ 'branch': 'next',
@@ -21,7 +23,7 @@ call plug#begin('~/.local/share/nvim/plugged')
   " z3
   Plug 'bohlender/vim-smt2'
   " Rust
-  Plug 'rust-lang/rust.vim'
+  Plug 'rust-lang/rust.vim', { 'for': 'rust' }
   " w3m - web browser
   Plug 'yuratomo/w3m.vim'
 call plug#end()
