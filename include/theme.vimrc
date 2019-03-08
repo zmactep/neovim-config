@@ -1,6 +1,6 @@
 set termguicolors
 syntax on
-filetype plugin indent on
+filetype plugin on
 colorscheme gruvbox
 set background=dark
 set number

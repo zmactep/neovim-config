@@ -21,17 +21,18 @@ let g:ctrlp_working_path_mode = 'ra'
 " ==== LSP ====
 let g:LanguageClient_serverCommands = {
     \ 'python': ['pyls'],
+    \ 'javascript': ['javascript-typescript-stdio'],
     \ 'lean': ['node', 'lean-language-server', '--stdio'],
-    \ 'rust': ['rustup', 'run', 'nightly', 'rls'],
-    \ 'haskell': ['hie', '--lsp']
+    \ 'rust': ['rustup', 'run', 'stable', 'rls'],
+    \ 'haskell': ['hie-wrapper']
     \ }
 
 " ==== HASKELL ====
 
 " haskell-vim
 let g:haskell_indent_disable = 1
-" vim-hindent
-let g:hindent_on_save = 0
+" vim-brittany
+let g:brittany_on_save = 0
 
 " ==== LEAN ====
 let g:lean_auto_replace = 1

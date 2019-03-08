@@ -15,9 +15,14 @@ call plug#begin('~/.local/share/nvim/plugged')
     \ }
   Plug 'Shougo/neco-vim'
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+  " Comments
+  Plug 'scrooloose/nerdcommenter'
+  " TypeScript
+  Plug 'HerringtonDarkholme/yats.vim'
+  Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
   " Haskell
   Plug 'neovimhaskell/haskell-vim'
-  Plug 'alx741/vim-hindent', { 'for': 'haskell' }
+  Plug 'meck/vim-brittany', { 'for': 'haskell' }
   " lean
   Plug 'leanprover/lean.vim', { 'for': 'lean' }
   " z3
